@@ -1,0 +1,7 @@
+{
+  "variable_order": "left_to_right",
+  "default_value_order": "ascending",
+  "repeat_waktu": 5,
+  "n_pilihan_menu": [4, 8, 12, 16],
+  "pilihan_repeat_waktu": [5, 10, 20]
+}

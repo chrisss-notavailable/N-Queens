@@ -1,0 +1,23 @@
+======================================================================
+EKSPERIMEN 2
+Waktu Eksekusi : 2026-10-28 20:51:58
+Perintah       : Menu: inputs\n8_acuan.json | Algo: all
+File Input     : inputs\n8_acuan.json
+Parameter      : N=8, value_order=ascending
+--------------------------------------------------
+Algoritma      : Backtracking
+Keterangan     : Feasible
+Solusi Pertama : (1, 5, 8, 6, 3, 7, 2, 4)
+Assignment     : 113
+Backtrack      : 105
+Waktu Rata-rata: 0.000242 detik (5 pengulangan)
+--------------------------------------------------
+Algoritma      : Backtracking + Forward Checking
+Keterangan     : Feasible
+Solusi Pertama : (1, 5, 8, 6, 3, 7, 2, 4)
+Assignment     : 88
+Backtrack      : 80
+Waktu Rata-rata: 0.000142 detik (5 pengulangan)
+--------------------------------------------------
+Solusi kedua algoritma sama? Ya
+======================================================================

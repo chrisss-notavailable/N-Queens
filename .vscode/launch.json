@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: N-Queens (n4_mudah.json)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--input", "inputs/n4_mudah.json"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: N-Queens (n8_acuan.json)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--input", "inputs/n8_acuan.json"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
+

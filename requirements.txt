@@ -1,0 +1,25 @@
+# ==============================================================================
+# N-Queens CSP: Backtracking vs Backtracking + Forward Checking
+# Tugas Besar Kecerdasan Buatan - S1 Teknik Informatika
+# ==============================================================================
+# Program ini menggunakan 100% Pustaka Standar Python (Python Standard Library).
+# Tidak memerlukan instalasi pustaka eksternal (third-party package) untuk
+# menjalankan program inti (main.py dan algorithms.py).
+#
+# Persyaratan Lingkungan (Environment):
+# - Python >= 3.9 (Direkomendasikan Python 3.10 s.d. 3.14)
+#
+# Modul Bawaan Python yang Digunakan:
+# - argparse   : Parsing argumen CLI (skenario, input file, trace flag)
+# - datetime   : Penanda waktu pada pencatatan log hasil eksperimen
+# - json       : Pembacaan berkas input (inputs/*.json) & config.json
+# - os         : Manajemen path direktori dan berkas output (results/)
+# - sys        : Pengelolaan status sistem dan kode keluar program
+# - time       : Pengukuran waktu eksekusi CPU presisi tinggi (time.perf_counter)
+#
+# Cara Menjalankan:
+#   python main.py --input inputs/n4_mudah.json
+#   python main.py --input inputs/n8_acuan.json
+#   python main.py --input inputs/n8_acuan.json --trace
+#   python main.py --input inputs/n8_acuan.json --algo bt_fc
+# ==============================================================================
